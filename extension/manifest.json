@@ -1,0 +1,13 @@
+{
+   "content_scripts": [ {
+      "exclude_globs": [  ],
+      "include_globs": [  ],
+      "js": [ "script.js" ],
+	  "css": [ ],
+      "matches": [ "http://*.bukowskis.com/*", "https://*.bukowskis.com/*" ]
+   } ],
+   "description": "",
+   "name": "Bukowski Gold Miner",
+   "version": "1.0",
+   "manifest_version":2
+}
